@@ -1,0 +1,22 @@
+{
+  "name": "namaste_react",
+  "version": "1.0.0",
+  "description": "React Js Project",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikhilaparab16/React-js-projects.git"
+  },
+  "author": "Nikhila Chalke",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nikhilaparab16/React-js-projects/issues"
+  },
+  "homepage": "https://github.com/nikhilaparab16/React-js-projects#readme",
+  "devDependencies": {
+    "parcel": "^2.16.4"
+  }
+}
