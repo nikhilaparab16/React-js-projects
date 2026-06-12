@@ -1,8 +1,7 @@
-const parent = React.createElement(
-    "div", 
-    {id:"parent"}, 
-    [React.createElement("h1",{},"I am H1 tag"),
-    React.createElement("h2",{},"I am H2 tag")]
-);
-const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(parent);
+import { createRoot } from "react-dom/client";
+
+const jsxHeading = <h1>Hello World JSX</h1>;
+
+const container = document.getElementById("root");
+const root = createRoot(container);
+root.render(jsxHeading);
