@@ -4,7 +4,9 @@ import resList from "../../utils/mockdata";
 
 const Body = () =>{
     
+    
     const [listOFRestaurant, setListOFRestaurant] = useState(resList);
+
 
     return(
         <main className="main-container">
@@ -16,8 +18,10 @@ const Body = () =>{
                             <div className="all" onClick={()=>{
                                 setListOFRestaurant(resList);
                             }}>All</div>
-                            <div className="relevance">Relevance</div>
-                            <div className="delivery">Delivery Time</div>
+                            <div className="delivery" onClick={ ()=>{
+                                let filterDeliveryTime = resList.filter( (res)=>(res.info.sla.deliveryTime < 30))
+                                setListOFRestaurant(filterDeliveryTime);
+                            }} >Delivery Time</div>
                             <div className="rating" onClick={()=>{
                                 let filterRatingData = resList.filter( (res)=> res.info.avgRating > 4.5 )
                                 // console.log(filterRatingData);

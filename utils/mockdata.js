@@ -6,7 +6,7 @@ const resList = [
         "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/6/17/6def0f0f-9e6c-45c0-b5e6-05af750f27b5_795906.JPG",
         "locality": "MG Road",
         "areaName": "Central District",
-        "costForTwo": "₹400 for two",
+        "costForTwo": 400,
         "cuisines": [
           "Pizza",
           "Italian",
@@ -34,7 +34,7 @@ const resList = [
         "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/6/24/acfcaacc-edf0-4189-8264-d614d312c0ee_740457.JPG",
         "locality": "Park Street",
         "areaName": "Downtown",
-        "costForTwo": "₹300 for two",
+        "costForTwo": 300,
         "cuisines": [
           "Burgers",
           "American",
@@ -62,7 +62,7 @@ const resList = [
         "cloudinaryImageId": "e0839ff574213e6f35b3899ebf1fc597",
         "locality": "Residency Road",
         "areaName": "South Zone",
-        "costForTwo": "₹250 for two",
+        "costForTwo": 250,
         "cuisines": [
           "Healthy Food",
           "Salads",
@@ -90,7 +90,7 @@ const resList = [
         "cloudinaryImageId": "rng/md/carousel/production/indian101",
         "locality": "Brigade Road",
         "areaName": "City Center",
-        "costForTwo": "₹500 for two",
+        "costForTwo": 500,
         "cuisines": [
           "Indian",
           "North Indian",
@@ -118,7 +118,7 @@ const resList = [
         "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/6/18/ba9f1f59-30d5-44de-afad-df6db8471ead_9648.jpg",
         "locality": "Commercial Street",
         "areaName": "East District",
-        "costForTwo": "₹350 for two",
+        "costForTwo": 350,
         "cuisines": [
           "Chinese",
           "Asian",
@@ -146,7 +146,7 @@ const resList = [
         "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/11/8/731001f1-f1c4-4f5f-849f-79a697cb0b72_390173.jpg",
         "locality": "Lavelle Road",
         "areaName": "West End",
-        "costForTwo": "₹200 for two",
+        "costForTwo": 200,
         "cuisines": [
           "Desserts",
           "Ice Cream",
@@ -174,7 +174,7 @@ const resList = [
         "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/6/24/acfcaacc-edf0-4189-8264-d614d312c0ee_740457.JPG",
         "locality": "Indiranagar",
         "areaName": "Uptown",
-        "costForTwo": "₹800 for two",
+        "costForTwo": 800,
         "cuisines": [
           "Japanese",
           "Sushi",
@@ -202,7 +202,7 @@ const resList = [
         "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/6/17/6def0f0f-9e6c-45c0-b5e6-05af750f27b5_795906.JPG",
         "locality": "Jayanagar",
         "areaName": "South Bangalore",
-        "costForTwo": "₹300 for two",
+        "costForTwo": 300,
         "cuisines": [
           "South Indian",
           "Dosa",
@@ -230,7 +230,7 @@ const resList = [
         "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/10/17/7bd350a8-55e7-459b-83a2-e250e670d194_14558.JPG",
         "locality": "Koramangala",
         "areaName": "Tech Hub",
-        "costForTwo": "₹450 for two",
+        "costForTwo": 450,
         "cuisines": [
           "Italian",
           "Pasta",
