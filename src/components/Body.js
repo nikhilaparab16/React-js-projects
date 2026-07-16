@@ -1,14 +1,23 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Restaurant from "./Restaurant";
-import resList from "../../utils/mockdata";
+import Shimmer from "./Shimmer";
 
 const Body = () =>{
-    
-    
-    const [listOFRestaurant, setListOFRestaurant] = useState(resList);
 
+    const [listOFRestaurant, setListOFRestaurant] = useState([]);
 
-    return(
+    useEffect(()=>{
+        fetchData();
+    },[]);
+
+    const fetchData = async ()=>{
+        const data = await fetch("https://namastedev.com/api/v1/listRestaurants");
+        const json = await data.json();
+        console.log(json);
+        setListOFRestaurant(json?.data?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
+    }
+
+    return listOFRestaurant.length == 0 ? <Shimmer /> : (
         <main className="main-container">
             <section className="restaurants">
                 <div className="container">
