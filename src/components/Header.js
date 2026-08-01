@@ -1,4 +1,8 @@
+
+import { useState } from "react";
+
 export const Header = ()=>{
+    const [btnName,setBtnName] = useState("Login");
     return(
         <header className="navbar">
             <div className="global-nav">
@@ -49,6 +53,11 @@ export const Header = ()=>{
                                         <span>Cart</span>
                                     </div>
                                 </div>
+                            </li>
+                            <li>
+                                <button className="btn" onClick={()=>{
+                                    btnName == 'Login'? setBtnName('Logout') : setBtnName('Login')
+                                }}>{btnName}</button>
                             </li>
                         </ul>
                     </div>
